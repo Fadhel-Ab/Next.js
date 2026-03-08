@@ -1,8 +1,9 @@
-export default function Post({ params }) {
+export default async function Post({ params }) {
+    const { id } = await params;
   return (
     <div>
-      <h1>Post {params.id}</h1>
-      <p>This is the post content.</p>
+      <h1>Post: {id}</h1>
+        <p>This is the content of post {id}.</p>
     </div>
   );
 }
