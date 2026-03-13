@@ -1,8 +1,11 @@
+import Layout from "@/app/navigation";
 export default function About() {
   return (
-    <div>
-      <h1>About</h1>
-      <p>About text</p>
-    </div>
+    <Layout>
+      <div>
+        <h1>About</h1>
+        <p>About text</p>
+      </div>
+    </Layout>
   );
 }
