@@ -10,6 +10,7 @@ export default function Home() {
       <Link href="/about">Go to About page</Link><br />
       <Link href="/posts/1">Post 1</Link> <br />
       <Link href="/posts/2">Post 2</Link>
+      <p>Your API key: {process.env.NEXT_PUBLIC_API_KEY}</p>
     </Layout>
   );
 }
